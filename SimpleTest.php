@@ -7,7 +7,7 @@ class SimpleTest extends TestCase{ //class simpletest itu turunan
         $Wc = new Wordcount();
         $TestSentence = "My name is Audrey";
         $Wordcount = $Wc->countWords($TestSentence);//objek ndek wc itu dipanggil argumen testsentence disimpan di countword
-        $this->assertEquals(2, $Wordcount);
+        $this->assertEquals(4, $Wordcount);
     }
 }
 ?>
